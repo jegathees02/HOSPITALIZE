@@ -1,0 +1,36 @@
+body{
+    background-image:url("../PHOTOS/sample1.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+}
+#div2{
+    font-size: 300%;
+    padding-left: 155px;
+    padding-top: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#getstarted{
+    float: right;
+    /* width: 50%; */
+    /* align-items: center; */
+    margin-right: 55%;
+    /* size: 200%; */
+    /* height: 5vh; */
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#getstarted:hover{
+    /* font-style:inherit; */
+    background-color:paleturquoise;
+    /* color: white; */
+    cursor: pointer;
+}

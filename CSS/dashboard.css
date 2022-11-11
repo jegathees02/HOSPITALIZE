@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.top{
+    background-color:aliceblue;
+    padding: 14px 16px;
+    /* float: left; */
+    width: 100%;
+}
+.hospitalize{
+    float: left;
+    position: relative;
+    font-size: 33px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 35px;
+}
+.name{
+    float: right;
+    font-size: 45px;
+    margin-right: 4%;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+li{
+    float: left;
+    padding: 20px;
+    font-size: 27px;
+    border-color: blue;
+    text-decoration: none;
+    color: black;
+}
+li a{
+    color: white;
+    /* background-color: darkgreen; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: tomato;
+}
+
+.top::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hospitals{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px;
+    width: 60%;
+    float: right;
+
+}
+.content{
+    background-image: url("../PHOTOS/doctor1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60%;
+}
+.hospital-nearby{
+    padding-bottom: 20px;
+}
+.hospital-content{
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 3%;
+    padding-bottom: 10%;
+    border-radius: 25px;
+    /* float: left; */
+}
+
+.hospital-name{
+    float: left;
+}
+.distance{
+    float: left;
+    padding-left: 10px;
+    color: maroon;
+}
+.distance::after,.hospital-name::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+img{
+    height: 65px;
+    float: right;
+}
+.rating img{
+    
+}
